@@ -1,0 +1,12 @@
+{
+	"autoload":{
+		"psr-4": {
+			"Abed\\PHPUnitDemo\\": "src/",
+			"Abed\\PHPUnitDemo\\Tests\\": "tests/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	}
+
+}
