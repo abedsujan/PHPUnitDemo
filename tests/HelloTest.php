@@ -11,8 +11,10 @@ class HelloTest extends \PHPUnit_Framework_TestCase{
 
 	/**
 	 * @covers ::world
+	 * @test
 	 */
 	public function testWorld(){
 		$this->assertSame("world", $this->hello->world());
 	}
+	
 }

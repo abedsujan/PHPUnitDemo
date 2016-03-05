@@ -8,7 +8,7 @@
 	>
 	<testsuites>
 		<testsuite name="unit">
-			<directory>./tests</directory>
+			<directory>tests</directory>
 		</testsuite>
 	</testsuites>
 
@@ -16,5 +16,8 @@
 		<whitelist>
 			<directory>./src</directory>
 		</whitelist>
+		<blacklist>
+			<directory>vendor</directory>
+		</blacklist>
 	</filter>
 </phpunit>
